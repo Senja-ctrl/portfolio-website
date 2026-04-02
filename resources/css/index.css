@@ -32,12 +32,45 @@ body {
 }
 
 .centered {
+
     position: absolute;
-    bottom: 35%;
+    bottom: 25%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     width: fit-content;
+}
+
+.topButton:hover {
+    z-index: -1;
+    color: rgb(121, 121, 121);
+    transform: scale(1.1);
+    transition: ease-out 0.2s;
+    /*color: #ABFAA9;*/
+    /* background-color: rgb(190, 190, 190); */
+    border-radius: 5px;
+}
+
+.topButton {
+    z-index: -1;
+    bottom: 0px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transform: scale(1);
+    transition: ease-out 0.2s;
+}
+
+.topBarLeg {
+    z-index: 10;
+    pointer-events: none;
+    position: relative;
 }
 
 img {
@@ -56,22 +89,6 @@ form {
     font-size: 28px;
 }
 
-.topButton:hover {
-    /* color: gray; */
-    color: #ABFAA9;
-}
-
-.topButton {
-    color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 0px;
-    font-size: 20px;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
 
 input,
 button {
