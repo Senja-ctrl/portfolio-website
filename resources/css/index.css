@@ -1,16 +1,19 @@
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
 }
 
 h1 {
+    font-family: Epilogue, sans-serif;
+    font-size: 35px;
     color: black;
     /* background-color: whitesmoke; */
     margin-top: 0%;
     margin-right: 0%;
+    margin-left: 40px;
     bottom: 10px;
-    padding: 10px;
     padding-top: 70px;
-    text-align: center;
+    text-align: left;
 }
 
 body {
@@ -43,15 +46,17 @@ body {
 
 .topButton:hover {
     z-index: -1;
-    color: rgb(121, 121, 121);
+    /* color: rgb(98, 112, 145); */
     transform: scale(1.1);
+    font-weight: 450;
     transition: ease-out 0.2s;
-    /*color: #ABFAA9;*/
+    color: #1f6a5d;
     /* background-color: rgb(190, 190, 190); */
     border-radius: 5px;
 }
 
 .topButton {
+    font-family: Epilogue, sans-serif;
     z-index: -1;
     bottom: 0px;
     color: black;
@@ -64,6 +69,7 @@ body {
     border: none;
     cursor: pointer;
     transform: scale(1);
+    font-weight: 400;
     transition: ease-out 0.2s;
 }
 
@@ -85,7 +91,7 @@ p,
 li,
 div,
 form {
-    margin-left: 25px;
+    margin-left: 40px;
     font-size: 28px;
 }
 
