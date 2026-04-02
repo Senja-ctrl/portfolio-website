@@ -47,10 +47,10 @@ body {
 .topButton:hover {
     z-index: -1;
     /* color: rgb(98, 112, 145); */
+    color: #1f6a5d;
     transform: scale(1.1);
     font-weight: 450;
     transition: ease-out 0.2s;
-    color: #1f6a5d;
     /* background-color: rgb(190, 190, 190); */
     border-radius: 5px;
 }
